@@ -24,10 +24,10 @@ fi
 #mkdir -p /lustre/cms/store/user/mlouka/HH_2B4L/root_files_2018UL_4mu
 #mkdir $path
 echo '  The' $extension files will be copied to:  $path
-echo '  You can ignore the [cannot find/stat] messages for now'
 echo '--------------------------------------------------------------'
 echo '                      C O P Y I N G . . .                     '
 echo '--------------------------------------------------------------'
+echo '  You can ignore the [cannot find/stat] messages for now'
 for d in */*; do
  cd $d
  cp *.$extension $path
