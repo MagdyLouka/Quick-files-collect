@@ -1,6 +1,6 @@
-# Quick-files-copying
+# Quick-files-collect
 by runing this script, the files of a certain extension that is chosen interactievely in all the sub-directories
-of the current working directory will be copied to new single directory.
+of the current working directory will be collected and copied to new single directory.
 
 To run:
 > bash copying.bash
