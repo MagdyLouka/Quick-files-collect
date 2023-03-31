@@ -3,6 +3,6 @@ by runing this script, the files of a certain extension that is chosen interacti
 of the current working directory will be collected and copied to new single directory.
 
 To run:
-> bash copying.bash
+> bash collect_copy.sh
 
 Then enter interactively the files extension and the absolute directory to copy to.
