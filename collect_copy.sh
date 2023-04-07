@@ -9,6 +9,8 @@ echo ' =========================================================================
 echo '   You are going to copy all the files of a certain extension in all the sub-dictories to a new directory'
 echo '   Please enter the extension and the directory to copy to, or a new directory path to be created'
 echo '   Warning: Pls use "absolute" directory paths, relative paths may cause failure'
+echo '   Your current working directory is:'
+pwd
 echo ' ============================================================================================================'
 read -p "Extension is: " extension
 read -p "Path is: " path
